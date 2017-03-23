@@ -17,5 +17,5 @@ http.createServer(function(req,res){
         res.end(data);
     });
    
-}).listen(1337,'127.0.0.1');
+}).listen(8080);
 console.log("webserver started");
